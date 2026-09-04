@@ -1,5 +1,9 @@
 # 中文跟打器 Fcitx5 IME 兼容补偿
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/bingo084/typing-ime-fix/main/assets/icon.png" width="128" alt="中文跟打器 Fcitx5 IME 兼容补偿图标">
+</p>
+
 用于修复 Linux 下 Fcitx5/Rime 整句输入时，浏览器跟打器无法正确获取物理 `keydown` 所造成的问题。
 
 ## 支持站点
@@ -35,4 +39,5 @@ __typingImeFix
 
 ## 版本记录
 
+- 1.0.1：添加项目图标。
 - 1.0.0：首个公开版本，支持虎码健康练习和木易跟打器。

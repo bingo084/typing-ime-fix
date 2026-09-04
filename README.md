@@ -1,5 +1,9 @@
 # 中文跟打器 Fcitx5 IME 兼容补偿
 
+<p align="center">
+  <img src="./assets/icon.png" width="128" alt="中文跟打器 Fcitx5 IME 兼容补偿图标">
+</p>
+
 一个面向 Linux、Fcitx5/Rime 整句输入用户的浏览器用户脚本，用于补偿跟打网站无法收到完整物理 `keydown` 时造成的击键、码长和完成检查问题。
 
 ## 支持站点

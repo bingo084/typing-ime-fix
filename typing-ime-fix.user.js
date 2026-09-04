@@ -2,9 +2,10 @@
 // @name         Fcitx5 IME Fix for Chinese Typing Trainers
 // @name:zh-CN   中文跟打器 Fcitx5 IME 兼容补偿
 // @namespace    https://github.com/bingo084
-// @version      1.0.0
+// @version      1.0.1
 // @description  Fix missing keystrokes and completion checks caused by Fcitx5 sentence composition on supported Chinese typing trainers.
 // @description:zh-CN 补偿 Fcitx5 整句输入时被浏览器隐藏的击键，修复受支持中文跟打器的码长统计和完成检查。
+// @icon         https://raw.githubusercontent.com/bingo084/typing-ime-fix/main/assets/icon.png
 // @license      MIT
 // @match        https://www.tiger-code.com/practice/health/type*
 // @match        https://typer.owenyang.top/*
@@ -56,7 +57,7 @@
   const SAME_PHYSICAL_KEY_WINDOW_MS = 16;
 
   const stats = {
-    version: '1.0.0',
+    version: '1.0.1',
     site: adapter.id,
     trustedCounted: 0,
     compositionUpdates: 0,
